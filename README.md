@@ -4,9 +4,9 @@
 * AssurityConsulting.sh is shell script to execute the JMeter load test in non-GUI mode
 * JMeter test execution is configured to prepare a .jtl file, html-reports & errors_only.xml files which will help in results analysis
 
-##########################################################################################
-------------------------Steps to execute the JMeter load test-----------------------------
-##########################################################################################
+
+**Below are the Steps to execute the JMeter load test**
+
 * Run the shell script from terminal by ./AssurityConsulting.sh
 * Shell script will request the user to provide the following inputs
 	- JMeter bin directory: Absolute path of JMeter installation
@@ -22,9 +22,9 @@
 	*In case no input is provided shell script will take the default value
 
 
-######################################################################################################################################
-------------------------------------------------Extracted Output CSV explanation-----------------------------------------------------
-######################################################################################################################################
+
+**Details on Extracted Output to CSV file**
+
 Data like categories Id, promotions and price are being extracted & save to CategoriesOutput.csv for all the pass transaction
 
 * Column 1: Thread Id/Number
@@ -32,8 +32,4 @@ Data like categories Id, promotions and price are being extracted & save to Cate
 * Column 3: Promotions Id
 * Column 4: Prices
 
-
-######################################################################################################################################
-------------------------------------------------Performance Test Summary Report-------------------------------------------------------
-######################################################################################################################################
-Please find the attached PerformanceTestSummaryReport-AssurityConsulting.pdf for the report
+**Performance Test Summary Report**: Please find the attached PerformanceTestSummaryReport-AssurityConsulting.pdf in the git
