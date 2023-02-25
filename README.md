@@ -6,7 +6,6 @@
 
 
 **Below are the Steps to execute the JMeter load test**
-
 * Run the shell script from terminal by ./AssurityConsulting.sh
 * Shell script will request the user to provide the following inputs
 	- JMeter bin directory: Absolute path of JMeter installation
@@ -19,8 +18,7 @@
 	- Target Throughput
 	- Absolute path to save extracted output in csv, in this case categories Id, promotions and price
 
-	*In case no input is provided shell script will take the default value
-
+*In case no input is provided shell script will take the default value
 
 
 **Details on Extracted Output to CSV file**
