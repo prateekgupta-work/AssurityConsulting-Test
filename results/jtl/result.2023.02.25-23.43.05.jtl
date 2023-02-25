@@ -1,0 +1,12 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1677348792336,778,GET - CategoriesDetailsById,200,OK,Thread Group 1-1,text,true,,3220,169,1,1,https://api.tmsandbox.co.nz/v1/Categories/6334/Details.json?catalogue=false,775,0,503
+1677348793270,327,GET - CategoriesDetailsById,200,OK,Thread Group 1-2,text,true,,3229,169,2,2,https://api.tmsandbox.co.nz/v1/Categories/6329/Details.json?catalogue=false,327,0,32
+1677348794272,254,GET - CategoriesDetailsById,200,OK,Thread Group 1-3,text,true,,3220,169,3,3,https://api.tmsandbox.co.nz/v1/Categories/6334/Details.json?catalogue=false,253,0,46
+1677348795268,229,GET - CategoriesDetailsById,200,OK,Thread Group 1-4,text,true,,3229,169,4,4,https://api.tmsandbox.co.nz/v1/Categories/6329/Details.json?catalogue=false,228,0,37
+1677348796274,394,GET - CategoriesDetailsById,200,OK,Thread Group 1-5,text,true,,3220,169,5,5,https://api.tmsandbox.co.nz/v1/Categories/6335/Details.json?catalogue=false,394,0,45
+1677348797399,238,GET - CategoriesDetailsById,200,OK,Thread Group 1-1,text,true,,3220,169,5,5,https://api.tmsandbox.co.nz/v1/Categories/6335/Details.json?catalogue=false,237,0,32
+1677348809941,345,GET - CategoriesDetailsById,200,OK,Thread Group 1-2,text,false,"Test failed: text expected to contain /""CanRelist"":true/",786,169,5,5,https://api.tmsandbox.co.nz/v1/Categories/6331/Details.json?catalogue=false,345,0,41
+1677348822021,243,GET - CategoriesDetailsById,200,OK,Thread Group 1-3,text,true,,3231,169,4,4,https://api.tmsandbox.co.nz/v1/Categories/6333/Details.json?catalogue=false,243,0,49
+1677348834045,244,GET - CategoriesDetailsById,200,OK,Thread Group 1-4,text,true,,3220,169,3,3,https://api.tmsandbox.co.nz/v1/Categories/6334/Details.json?catalogue=false,244,0,38
+1677348845880,226,GET - CategoriesDetailsById,200,OK,Thread Group 1-5,text,true,,3220,169,2,2,https://api.tmsandbox.co.nz/v1/Categories/6335/Details.json?catalogue=false,226,0,36
+1677348852032,235,GET - CategoriesDetailsById,200,OK,Thread Group 1-1,text,true,,3229,169,1,1,https://api.tmsandbox.co.nz/v1/Categories/6329/Details.json?catalogue=false,235,0,28

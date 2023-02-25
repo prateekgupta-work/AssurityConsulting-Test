@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="345" it="0" lt="345" ct="41" ts="1677348809941" s="false" lb="GET - CategoriesDetailsById" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" de="" by="786" sby="169" sc="1" ec="1" ng="5" na="5" hn="pratgupt01-mac">
+  <assertionResult>
+    <name>Response Assertion - HTTP 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion - To Verify Text</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&quot;CanRelist&quot;:true/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 243
+Content-Type: application/json
+ETag: &quot;45XbPGrAFttJmtzzA8g4n4CCq+Q=&quot;
+X-Correlation-ID: 8d4f93e6-4bd5-4e2c-86c9-90d3a8a4bf1e
+X-Request-ID: af2cad25-4fea-4ae1-97d5-150f67ef3c2c
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag
+X-POWERED-BY: 
+X-ASPNET-VERSION: 
+Accept-Ranges: bytes
+Date: Sat, 25 Feb 2023 18:13:30 GMT
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: api.tmsandbox.co.nz
+User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.14)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;CategoryId&quot;:6331,&quot;Name&quot;:&quot;Automotive &amp; aviation&quot;,&quot;Path&quot;:&quot;\/Books\/Magazines\/Automotive-aviation&quot;,&quot;CanListAuctions&quot;:false,&quot;CanListClassifieds&quot;:false,&quot;CanRelist&quot;:false,&quot;AreaOfBusiness&quot;:1,&quot;CanHaveSecondCategory&quot;:true,&quot;CanBeSecondCategory&quot;:true}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.tmsandbox.co.nz/v1/Categories/6331/Details.json?catalogue=false</java.net.URL>
+</httpSample>
+
+</testResults>
