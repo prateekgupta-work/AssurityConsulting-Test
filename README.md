@@ -5,7 +5,7 @@
 * JMeter test execution is configured to prepare a .jtl file, html-reports & errors_only.xml files which will help in results analysis
 
 
-**Below are the Steps to execute the JMeter load test**
+***Below are the Steps to execute the JMeter load test**
 * Run the shell script from terminal by ./AssurityConsulting.sh
 * Shell script will request the user to provide the following inputs
 	- JMeter bin directory: Absolute path of JMeter installation
@@ -21,18 +21,18 @@
 *In case no input is provided shell script will take the default value
 
 
-**Details on Extracted Output to CSV file**
+***Details on Extracted Output to CSV file**
 Data like categories Id, promotions and price are being extracted & save to CategoriesOutput.csv for all the pass transaction
 * Column 1: Thread Id/Number
 * Column 2: Categories Id
 * Column 3: Promotions Id
 * Column 4: Prices
 
-**Results & Other files details**
+***Results & Other files details**
 * /Output/CategoriesOutput.csv - contains extracted data like categoriesId, promotions etc.
 * /Output/error_only.xml - Errors logs for failed request
 * /Output/jmeter.log - JMeter log from the execution
 * /results/jtl/result.2023.02.25-23.43.05.jtl - JTL result file for the test execution
 * /results/html_reports/html_report.2023.02.25-23.43.05/ - html report for the test execution
 
-**Performance Test Summary Report**: Please find the attached PerformanceTestSummaryReport-AssurityConsulting.pdf in the git
+***Performance Test Summary Report**: Please find the attached PerformanceTestSummaryReport-AssurityConsulting.pdf in the git
