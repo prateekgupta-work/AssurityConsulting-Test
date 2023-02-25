@@ -4,9 +4,9 @@
 * AssurityConsulting.sh is shell script to execute the JMeter load test in non-GUI mode
 * JMeter test execution is configured to prepare a .jtl file, html-reports & errors_only.xml files which will help in results analysis
 
-######################################################################################################################################
-------------------------------------------------Steps to execute the JMeter load test-------------------------------------------------
-######################################################################################################################################
+##########################################################################################
+------------------------Steps to execute the JMeter load test-----------------------------
+##########################################################################################
 * Run the shell script from terminal by ./AssurityConsulting.sh
 * Shell script will request the user to provide the following inputs
 	- JMeter bin directory: Absolute path of JMeter installation
